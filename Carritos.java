@@ -20,76 +20,96 @@ public class Carritos extends javax.swing.JPanel {
      int g = 0;
      int h = 0;
      
-     Color micolor = new Color(180,255,0);
+     Color micolor = new Color(200,191,231);
      
-    int meta = 780;
+    int meta = 450;
     
     public void paintComponent(Graphics p){
         
         super.paintComponent(p);
         
-        p.setColor(Color.YELLOW);
-        p.fillRoundRect(x, 10, 40, 15, 10, 10); 
-        p.setColor(Color.BLACK);
-        p.fillOval(x + 5, 23, 10, 10); 
-        p.fillOval(x + 25, 23, 10, 10); 
+        p.setColor(Color.red);
+        p.fillRect(x,5,25,10);
+        p.setColor(Color.black);
+        p.fillRect(x, 0, 5, 5);
+        p.fillRect(x, 15, 5, 5);
+        p.fillRect(x+20, 0, 5, 5);
+        p.fillRect(x+20, 15, 5, 5);
         
-        p.setColor(new Color(0, 50, 200));
-        p.fillRoundRect(y, 35, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(y + 5, 48, 10, 10);
-        p.fillOval(y + 25, 48, 10, 10);
+        p.setColor(Color.blue);
+        p.fillRect(y,30,25,10);
+        p.setColor(Color.black);
+        p.fillRect(y, 25, 5, 5);
+        p.fillRect(y, 40, 5, 5);
+        p.fillRect(y+20, 25, 5, 5);
+        p.fillRect(y+20, 40, 5, 5);
         
-        p.setColor(new Color(0, 180, 0));
-        p.fillRoundRect(a, 60, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(a + 5, 73, 10, 10);
-        p.fillOval(a + 25, 73, 10, 10);
+        p.setColor(Color.green);
+        p.fillRect(a,55,25,10);
+        p.setColor(Color.black);
+        p.fillRect(a, 50, 5, 5);
+        p.fillRect(a, 65, 5, 5);
+        p.fillRect(a+20, 50, 5, 5);
+        p.fillRect(a+20, 65, 5, 5);
         
-        p.setColor(Color.GRAY);
-        p.fillRoundRect(b, 85, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(b + 5, 98, 10, 10);
-        p.fillOval(b + 25, 98, 10, 10);
+        p.setColor(Color.orange);
+        p.fillRect(b,80,25,10);
+        p.setColor(Color.black);
+        p.fillRect(b, 75, 5, 5);
+        p.fillRect(b, 90, 5, 5);
+        p.fillRect(b+20, 75, 5, 5);
+        p.fillRect(b+20, 90, 5, 5);
         
-        p.setColor(new Color(114,47,55));
-        p.fillRoundRect(c, 110, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(c + 5, 123, 10, 10);
-        p.fillOval(c + 25, 123, 10, 10);
+        p.setColor(Color.cyan);
+        p.fillRect(c,105,25,10);
+        p.setColor(Color.black);
+        p.fillRect(c, 100, 5, 5);
+        p.fillRect(c, 115, 5, 5);
+        p.fillRect(c+20, 100, 5, 5);
+        p.fillRect(c+20, 115, 5, 5);
         
-        p.setColor(new Color(128,0,128));
-        p.fillRoundRect(d, 135, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(d + 5, 148, 10, 10);
-        p.fillOval(d + 25, 148, 10, 10);
+        p.setColor(Color.LIGHT_GRAY);
+        p.fillRect(d,130,25,10);
+        p.setColor(Color.black);
+        p.fillRect(d, 125, 5, 5);
+        p.fillRect(d, 140, 5, 5);
+        p.fillRect(d+20, 125, 5, 5);
+        p.fillRect(d+20, 140, 5, 5);
         
-        p.setColor(Color.ORANGE);
-        p.fillRoundRect(e, 160, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(e + 5, 173, 10, 10);
-        p.fillOval(e + 25, 173, 10, 10);
+        p.setColor(Color.DARK_GRAY);
+        p.fillRect(e,155,25,10);
+        p.setColor(Color.black);
+        p.fillRect(e, 150, 5, 5);
+        p.fillRect(e, 165, 5, 5);
+        p.fillRect(e+20, 150, 5, 5);
+        p.fillRect(e+20, 165, 5, 5);
         
-         p.setColor(Color.CYAN);
-        p.fillRoundRect(f, 185, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(f + 5, 198, 10, 10);
-        p.fillOval(f + 25, 198, 10, 10);
+        p.setColor(Color.pink);
+        p.fillRect(f,180,25,10);
+        p.setColor(Color.black);
+        p.fillRect(f, 175, 5, 5);
+        p.fillRect(f, 190, 5, 5);
+        p.fillRect(f+20, 175, 5, 5);
+        p.fillRect(f+20, 190, 5, 5);
         
-        p.setColor(new Color(255, 100, 200));
-        p.fillRoundRect(g, 210, 40, 15, 10, 10);
-        p.setColor(Color.BLACK);
-        p.fillOval(g + 5, 223, 10, 10);
-        p.fillOval(g + 25, 223, 10, 10);
+        p.setColor(Color.MAGENTA);
+        p.fillRect(g,205,25,10);
+        p.setColor(Color.black);
+        p.fillRect(g, 200, 5, 5);
+        p.fillRect(g, 215, 5, 5);
+        p.fillRect(g+20, 200, 5, 5);
+        p.fillRect(g+20, 215, 5, 5);
         
         p.setColor(micolor);
-        p.fillRoundRect(h, 235, 40, 15, 10, 10);
+        p.fillRect(h,230,25,10);
         p.setColor(Color.black);
-        p.fillOval(h + 5, 248, 10, 10);
-        p.fillOval(h + 25, 248, 10, 10);
+        p.fillRect(h, 225, 5, 5);
+        p.fillRect(h, 240, 5, 5);
+        p.fillRect(h+20, 225, 5, 5);
+        p.fillRect(h+20, 240, 5, 5);
         
-        p.setColor(Color.black);
-        p.fillRect(780, 0, 10, 280);
+        p.setColor(Color.red);
+        p.fillRect(450, 0, 10, 263);
         
     }
     
